@@ -1,58 +1,36 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - Print combinations of two digit numbers
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int i;
+  int tens;
 
-	int j;
+  int ones;
 
-	i = 48;
-	j = 49;
-	while  ((i < 57) && (j < 58))
+  for (tens = 0; tens <= 9; tens++)
+    {
+      for (ones = tens + 1; ones <= 9; ones++)
 	{
+	  putchar(tens + '0');
 
-		putchar(i);
+	  putchar(ones + '0');
 
-		putchar(j);
+	  if (tens < 8)
+	    {
 
-		if ((i == 56) && (j == 57))
-		{
+	      putchar(',');
 
-			putchar('\n');
+	      putchar(' ');
 
-			i++;
+	    }
 
-			j++;
-
-		}
-		else
-		{
-
-			putchar(44);
-			putchar(32);
-
-			if (j < 57)
-			{
-
-				j++;
-
-			}
-			else
-			{
-
-				i++;
-
-				j = 1 + i;
-
-			}
-		}
 	}
-	return (0);
+
+    }
+
+  putchar('\n');
+  return (0);
 }
