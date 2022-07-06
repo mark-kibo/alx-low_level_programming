@@ -4,7 +4,6 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 
@@ -14,7 +13,6 @@ int main(void)
 	l = 'a';
 
 	while (l <= 'z')
-
 	{
 
 		putchar(l);
@@ -27,7 +25,6 @@ int main(void)
 
 	
 	while (l <= 'Z')
-
 	{
 
 		putchar(l);
@@ -39,5 +36,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-
 }
