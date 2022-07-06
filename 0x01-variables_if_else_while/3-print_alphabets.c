@@ -22,7 +22,6 @@ int main(void)
 	}
 
 	l = 'A';
-
 	
 	while (l <= 'Z')
 	{
