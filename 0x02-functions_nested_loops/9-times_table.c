@@ -24,29 +24,22 @@ void times_table(void)
 
 			else if (c < 10)
 			{
-
 				_putchar(' ');
 				_putchar('0' + e);
-
 			}
 			else
 			{
-
 				_putchar('0' + d);
 				_putchar('0' + e);
-
 			}
 			if (b < 9)
 			{
-
 				_putchar(',');
 				_putchar(' ');
-
 			}
 
 			else
 				_putchar('\n');
-
 		}
 	}
 }
