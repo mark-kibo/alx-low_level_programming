@@ -16,7 +16,7 @@ int main(void)
 	char s[] = "_putchar\n";
 
 
-	while(i <= 8)
+	while (i <= 8)
 	{
 
 		c = s[i];
