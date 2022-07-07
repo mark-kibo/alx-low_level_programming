@@ -13,11 +13,11 @@ int main(void)
 
 	char c;
 
-	char s[] = "Holberton\n";
+	char s[] = "_putchar\n";
 
 
 
-	while (i <= 9)
+	while (i <= 8)
 	{
 
 		c = s[i];
