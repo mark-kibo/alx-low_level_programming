@@ -1,11 +1,15 @@
-#include <stdio.h>
-void print(void);
-/**
- * create a function that prints the following words
- *
+/*
+ * File: 100-first.c
+ * Auth: mark
  */
-void print(void)
+#include <stdio.h>
+void __attribute__((constructor)) hare(void);
+/**
+ * hare - Prints a string before the
+ *        main function is executed.
+ */
+void hare(void)
 {
-	printf("You're beat! and yet, you must allow,\n");
-	printf("I bore my house upon my back!\n");	
+	printf("You're beat! and yet, you must allow,\n"
+	       "I bore my house upon my back!\n");
 }
