@@ -9,6 +9,7 @@
 size_t print_list(const list_t *h)
 {
 	const list_t *tmp;
+
 	unsigned int i;
 
 	tmp = h;
