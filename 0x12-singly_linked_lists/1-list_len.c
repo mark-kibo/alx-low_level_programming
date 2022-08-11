@@ -4,16 +4,14 @@
 
 size_t list_len(const list_t *h)
 {
-	const list_t *head;
+	const list_t *tmp;
 
-	int count;
-
-	unassigned int;
+	unassigned int i;
 	
-	head=h;
-	for(i=0; head; i++)
+	tmp = h;
+	for(i=0; tmp; i++)
 	{
-		count = count + 1;
+		tmp = tmp->next;
 	}
-	return count;
+	return (i);
 }
