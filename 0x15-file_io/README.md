@@ -1,1 +1,1 @@
-file decriptors
+file descriptors
